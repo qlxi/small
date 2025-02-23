@@ -14,10 +14,9 @@ jobs:
       fail-fast: false
       matrix:
         sdk:
-          - 23.05.2
+          - 21.02-SNAPSHOT
         arch:
-          - aarch64_cortex-a53
-          - x86_64
+          - arm_cortex-a7
 
     steps:
       - uses: actions/checkout@main
