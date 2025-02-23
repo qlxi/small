@@ -14,9 +14,9 @@ jobs:
       fail-fast: false
       matrix:
         sdk:
-          - 23.05.2
+          - 23.05
         arch:
-          - aarch64_cortex-a53_neon-vfpv4
+          - aarch64_cortex-a53
 
     steps:
       - uses: actions/checkout@main
