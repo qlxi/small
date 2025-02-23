@@ -16,7 +16,7 @@ jobs:
         sdk:
           - 23.05.2
         arch:
-          - arm_cortex-a7
+          - aarch64_cortex-a53_neon-vfpv4
 
     steps:
       - uses: actions/checkout@main
